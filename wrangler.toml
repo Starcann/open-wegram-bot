@@ -1,4 +1,4 @@
-name = "starcanbot"
+name = "replaybotst"
 main = "src/worker.js"
 compatibility_date = "2023-05-18"
 keep_vars = true
