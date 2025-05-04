@@ -10,8 +10,8 @@ import {handleRequest} from './core.js';
 export default {
     async fetch(request, env, ctx) {
         const config = {
-            prefix: env.PREFIX || 'public',
-            secretToken: env.SECRET_TOKEN || ''
+            prefix: env.PREFIX || 'starcanbot',
+            secretToken: env.SECRET_TOKEN || 'L1QfYpBtc0e5GXts'
         };
 
         return handleRequest(request, config);
